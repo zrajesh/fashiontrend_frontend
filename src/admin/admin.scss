@@ -1,0 +1,54 @@
+.globalAdmin {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .formWrap {
+        margin-top: 80px;
+        background-color: #343a40;
+        padding: 10px;
+        width: 50vw;
+        margin: 0 auto;
+        .data {
+            margin: 0 auto;
+            font-size: 25px;
+            color: white;
+            width: 40vw;
+            .form-item {
+                padding: 10px 5px;
+                width: 41vw;
+            }
+            .description {
+                width: 40vw;
+            }
+            .adminHome {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+// Manage Product page
+.adminHomeupdate {
+    margin-left: 10px;
+}
+
+.message {
+    margin-bottom: 25px;
+    p {
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .globalAdmin {
+        .formWrap {
+            width: 90vw;
+            .data {
+                width: 80vw;
+            }
+        }
+    }
+}

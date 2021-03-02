@@ -1,0 +1,61 @@
+.header {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    position: fixed;
+    border-bottom: 1px solid #8a8a8a;
+    top: 0;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.1s;
+
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      margin-top: 15px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .menu {
+        display: none;
+      }
+  
+      .option {
+        margin: 10px 15px;
+        font-size: 21px;
+      }
+    }
+}
+
+.header_black {
+  background-color: #FFF;
+  box-shadow: 5px 1px #dfdbdb;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    height: 80px;
+    padding: 10px;
+    .options {
+      .menu {
+        display: block;
+        position: absolute;
+        right: 60px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+      .option {
+        display: none;
+      }
+    }
+  }
+}

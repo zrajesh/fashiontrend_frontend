@@ -1,0 +1,64 @@
+.admindashboard {
+    margin-top: 150px;
+    margin-bottom: 80px;
+    .title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .admininfo {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+        .adminright {
+            .navigation {
+                background-color: #181818;
+                padding: 10px 40px;
+                color: white;
+            }
+            background-color: #343a40;
+            li {
+                margin: 20px 15px;
+                a {
+                    color: white;
+                    font-size: 20px;
+                    &:hover {
+                        color: #fcd735;
+                    }
+                }
+            }
+        }
+        .adminleft {
+            .information {
+                background-color: #181818;
+                padding: 10px 40px;
+                color: white;
+            }
+            width: 70%;
+            margin-left: 40px;
+            background-color: #343a40;
+            height: 200px;
+            li {
+                margin: 20px 15px;
+                font-size: 20px;
+                color: white;
+                span {
+                    background-color: #c23903de;
+                    border-radius: 3px;
+                    padding: 0px 2px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .admindashboard {
+        .admininfo {
+            display: flex;
+            flex-direction: column;
+            .adminleft {
+                margin-top: 25px;
+                width: 80%;
+            }
+        }
+    }
+}

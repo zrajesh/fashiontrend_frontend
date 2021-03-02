@@ -1,0 +1,19 @@
+.wrap {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 8%;
+    margin-top: 125px;
+    @media screen and (max-width: 800px) {
+        margin-bottom: 100px;
+    }
+    .carousel {
+        text-align: center;
+        height: 80vh;
+        .parent {
+            height: 80vh;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}

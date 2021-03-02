@@ -1,0 +1,25 @@
+.category-preview {
+    padding: 20px 40px;
+    margin-top: 120px;
+    margin-bottom: 10%;
+    .contentPreview {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .category-preview {
+        padding: 10px 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .contentPreview {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

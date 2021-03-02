@@ -1,0 +1,31 @@
+.manage-container {
+    padding: 40px;
+    .container-row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+        .col1 {
+            width: 300px;
+        }
+        .item {
+            .btn {
+                cursor: pointer;
+                padding: 6px 10px;
+                background-color: #b86827;
+                color: white;
+                letter-spacing: 1.5px;
+                border-radius: 3px;
+                &:hover {
+                    background-color: #e77619;
+                }
+            }
+            .del {
+                background-color: #a52a2a;
+                border: 1px solid #dc143c;
+                &:hover {
+                    background-color: #dc143c;
+                }
+            }
+        }
+    }
+}
